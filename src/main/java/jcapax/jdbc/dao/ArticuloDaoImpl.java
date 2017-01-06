@@ -16,6 +16,7 @@ public class ArticuloDaoImpl implements ArticuloDAO{
 	final String INSERT = "INSERT INTO articulos(nombreArticulo, unidad) VALUES(?, ?)";
 	final String GETONE = "SELECT idArticulo, nombreArticulo, unidad FROM articulos WHERE idArticulo = ? ";
 	final String GETALL = "SELECT idArticulo, nombreArticulo, unidad FROM articulos";
+	final String DELL = "delete from articulos";
 	
 	static Connection conn = null;
 	
