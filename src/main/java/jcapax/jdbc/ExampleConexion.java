@@ -21,6 +21,8 @@ public class ExampleConexion {
 			System.out.println("");
 			consultar(3);
 			transaccion("ALIMENTO BALANCEADO","KGS");
+			transaccion("VENENO PARA RATAS","KGS");
+			transaccion("HARINA INTEGRAL","KGS");
 			cerrar();
 			
 			

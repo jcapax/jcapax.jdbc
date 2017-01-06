@@ -11,14 +11,11 @@ public class Conexion {
 	public Conexion() {
 		super();
 		
-		boolean aux = false;
-		
 		String url = "jdbc:mysql://localhost:3306/dbdelfin";
 		try {
 			String msj = "conexion realizada con exito";
 			this.conn = DriverManager.getConnection(url, "root", "");
-			this.conn.setAutoCommit(aux);
-			System.out.println(msj);
+			this.conn.setAutoCommit(false);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
