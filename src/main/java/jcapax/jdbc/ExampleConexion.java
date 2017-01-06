@@ -23,6 +23,10 @@ public class ExampleConexion {
 			transaccion("ALIMENTO BALANCEADO","KGS");
 			transaccion("VENENO PARA RATAS","KGS");
 			transaccion("HARINA INTEGRAL","KGS");
+			transaccion("VEGETALES","KGS");
+			transaccion("LEGUMBRES","KGS");
+			transaccion("ARROZ","KGS");
+			transaccion("SALES DE REHIDRATACION","LTS");
 			cerrar();
 			
 			
